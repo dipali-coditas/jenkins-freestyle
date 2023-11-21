@@ -5,4 +5,4 @@ sudo systemctl enable apache2
 sudo rm -rf /var/www/html
 sudo rm -rf /var/www
 sudo mkdir -p /var/www/html
-sudo cp /var/lib/jenkins/workspace/Jenkins-FreeStyle/index.html /var/www/html
+sudo cp /var/lib/jenkins/workspace/jenkins_freestyle_multibranch_parameterized/index.html /var/www/html
