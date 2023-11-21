@@ -1,6 +1,6 @@
-sudo rm -rf /var/lib/jenkins/workspace/Jenkins-FreeStyle
+#sudo rm -rf /var/lib/jenkins/workspace/Jenkins-FreeStyle
 BRANCH_NAME=$(basename ${BRANCH})
-git clone -b ${BRANCH_NAME} --single-branch https://github.com/ankitr-c/Jenkins-FreeStyle.git
-sudo chown jenkins:jenkins /var/lib/jenkins/workspace/Jenkins-FreeStyle/script.sh
-sudo chmod +x /var/lib/jenkins/workspace/Jenkins-FreeStyle/script.sh
-sudo bash /var/lib/jenkins/workspace/Jenkins-FreeStyle/script.sh
+git clone -b ${BRANCH_NAME} --single-branch https://github.com/dipali-coditas/jenkins-freestyle.git
+sudo chown jenkins:jenkins /var/lib/jenkins/workspace/jenkins_freestyle_multibranch_parameterized/script.sh
+sudo chmod +x /var/lib/jenkins/workspace/jenkins_freestyle_multibranch_parameterized/script.sh
+sudo bash /var/lib/jenkins/workspace/jenkins_freestyle_multibranch_parameterized/script.sh
